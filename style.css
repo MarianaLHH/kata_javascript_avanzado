@@ -1,0 +1,33 @@
+/*selector {estilo}*/
+div {
+  background-color: aquamarine;
+}
+div.card {
+  background-color: rgb(199, 177, 50);
+  margin: 40px;
+}
+
+div#contenedor {
+  background-color: rgb(18, 80, 21);
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+  background-color: #d45c5c;
+}
+.card img {
+  max-width: 100%;
+  margin: 0 auto 10px;
+}
+.card p {
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.card span {
+  margin: 4px;
+}
